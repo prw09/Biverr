@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1d;
+    color: #67676d;
+    .container{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+        .logo{
+            font-size: 34px;
+            font-weight: bold;
+            .text{
+
+            }
+            .dot{
+                color: aquamarine;
+            }
+        }
+
+        .links{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            font-weight: 600;
+
+            button{
+                color: aliceblue;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 1px solid white;
+                cursor: pointer;
+                background-color: transparent;
+
+                &:hover{
+                    background-color: #c5c6c7;
+                    border-color: #dde5ee;
+                }
+            }
+        }
+    }
+}
