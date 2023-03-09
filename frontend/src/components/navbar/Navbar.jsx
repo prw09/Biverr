@@ -1,5 +1,5 @@
-import React from 'react';
-import "./Navbar.scss";
+import React from 'react'
+import "./Navbar.scss"
 
 const Navbar = () => {
   return (
@@ -9,14 +9,14 @@ const Navbar = () => {
                 <span className='text'>Biverr</span>
                 <span className='dot'>.</span>
             </div>
-          <div className="links">
-            <span>Biverr Bussiness</span>
-            <span>Explore</span>
-            <span>English</span>
-            <span>Sign In</span>
-            <span>Become a seller</span>
-            <button>Join</button>
-          </div>
+        <div className="links">
+                <span>Biverr Business</span>
+                <span>Explore</span>
+                <span>English</span>
+                <span>Sign in</span>
+                <span>Become a Seller</span>
+                <button>Join</button>
+        </div>
         </div>
     </div>
   )

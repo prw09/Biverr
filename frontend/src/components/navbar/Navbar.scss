@@ -1,9 +1,11 @@
 .navbar{
+
     display: flex;
     justify-content: center;
-    background-color: #1a1a1d;
-    color: #67676d;
+    background-color: #2f4454;
+    color: #da7b93;
     .container{
+
         width: 1200px;
         display: flex;
         justify-content: space-between;
@@ -11,31 +13,33 @@
         .logo{
             font-size: 34px;
             font-weight: bold;
+            cursor: pointer;
             .text{
+                
+            }
 
-            }
             .dot{
-                color: aquamarine;
-            }
+                color: black;
+            }   
         }
 
         .links{
             display: flex;
             align-items: center;
             gap: 25px;
-            font-weight: 600;
+            font-weight: 500;
+            cursor: pointer;
 
             button{
-                color: aliceblue;
+                color: #1a1a1a;
                 padding: 10px 20px;
                 border-radius: 5px;
                 border: 1px solid white;
                 cursor: pointer;
-                background-color: transparent;
+                background:transparent;
 
                 &:hover{
-                    background-color: #c5c6c7;
-                    border-color: #dde5ee;
+                    background-color: #da7b93;
                 }
             }
         }
