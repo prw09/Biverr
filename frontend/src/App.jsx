@@ -5,7 +5,7 @@ function App() {
   
   return (
     <div className="App">
-     <Navbar />
+     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda soluta tenetur fugit velit repudiandae ex impedit! Quas illo esse temporibus! Deserunt eligendi voluptates eum reiciendis alias iure unde excepturi inventore?
     </div>
   )
 }
