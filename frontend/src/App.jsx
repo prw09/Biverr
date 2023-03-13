@@ -1,4 +1,3 @@
-import "./app.scss";
 import { 
   createBrowserRouter, 
   Outlet, 
@@ -17,6 +16,7 @@ import Orders from "./pages/orders/Orders";
 import Messages from "./pages/messages/Messages";
 import Message from "./pages/message/Message";
 import MyGigs from "./pages/myGigs/MyGigs";
+import "./app.scss";
 
 function App() {
 

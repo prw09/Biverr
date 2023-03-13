@@ -4,7 +4,7 @@ import "./Featured.scss"
 const Featured = () => {
   return (
    <div className="featured">
-      <div className="conatiner">
+      <div className="container">
         <div className="left">
             <h1>Find a perfect freelance services for your bussiness</h1>
             <div className="search">
